@@ -315,7 +315,7 @@ header nav:hover .icon span:nth-child(2) {
 }
 .landing .bullets {
   position: absolute;
-  left: 50%;
+  left: calc(50% + 5px);
   bottom: 30px;
   display: flex;
   transform: translateX(-50%);
