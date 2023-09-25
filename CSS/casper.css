@@ -159,7 +159,6 @@ header nav ul a {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-header nav ul a.active,
 header nav ul a:hover {
   color: var(--main--color);
   border-bottom: 2px solid var(--main--color);
@@ -227,6 +226,7 @@ header nav:hover .icon span:nth-child(2) {
   background-size: cover;
   background-color: #333;
   position: relative;
+  transition: 0.5s;
 }
 @media (max-width: 767px) {
   .landing {
@@ -330,6 +330,7 @@ header nav:hover .icon span:nth-child(2) {
   border: 1px solid white;
   border-radius: 50%;
   margin-right: 10px;
+  transition: 0.5s;
 }
 .landing .bullets .active {
   background-color: var(--main--color);
