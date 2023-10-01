@@ -222,7 +222,7 @@ header nav:hover .icon span:nth-child(2) {
 /* start landing */
 .landing {
   min-height: 100vh;
-  background-image: url(../Image/landing.jpg);
+  background-image: url(../Image/landing-2.jpg);
   background-size: cover;
   background-color: #333;
   position: relative;
@@ -331,6 +331,7 @@ header nav:hover .icon span:nth-child(2) {
   border-radius: 50%;
   margin-right: 10px;
   transition: 0.5s;
+  cursor: pointer;
 }
 .landing .bullets .active {
   background-color: var(--main--color);
