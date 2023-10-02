@@ -228,11 +228,11 @@ header nav:hover .icon span:nth-child(2) {
   position: relative;
   transition: 0.5s;
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .landing {
     background-image: url(../Image/landing2.jpg);
   }
-}
+} */
 .landing .overlay {
   position: absolute;
   width: 100%;
