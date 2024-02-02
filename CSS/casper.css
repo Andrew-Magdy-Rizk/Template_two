@@ -46,6 +46,51 @@ ul {
   }
 }
 /* End Global Rules */
+
+/* Loading */
+.loading,
+.loading::before {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-width: 7px;
+  border-color: #673ab7;
+  width: 150px;
+  height: 150px;
+  border-style: solid solid dotted dotted;
+  z-index: 1;
+  border-radius: 50%;
+  animation: rotate-Right 2s linear infinite;
+  /* opacity: 0; */
+}
+.loading::before {
+  content: "";
+  border-color: #14b1e0;
+  width: 100px;
+  height: 100px;
+  border-style: solid solid dotted dotted;
+  animation: rotate-left 1s linear infinite;
+}
+
+@keyframes rotate-Right {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(1turn);
+    /* opacity: 1; */
+  }
+}
+@keyframes rotate-left {
+  from {
+    transform: translate(-50%, -50%) rotate(0);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-1turn);
+  }
+}
+
 /* start components */
 .main-heading {
   text-align: center;

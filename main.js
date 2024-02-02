@@ -64,3 +64,8 @@ for (let i = 0; i < myBullets.length; i++) {
     }
   });
 }
+
+window.onload = () => {
+  let closeLoad = document.querySelector(".loading");
+  closeLoad.remove();
+};
